@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.logo img{
+  margin-left: 10px;
+  width: 15%;
+  height: 15%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu{
+ 
+}
