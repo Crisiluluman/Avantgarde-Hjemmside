@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: arial;
 }
 
 nav {
@@ -8,19 +9,58 @@ nav {
 }
 
 .logo img{
-  margin-left: 10px;
+  margin: 10px;
   width: 15%;
   height: 15%;
 }
 
 ul {
   list-style-type: none;
+  float: left;
+  width: 100%;
+}
+.navBar{
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+
 }
 
 .menu{
+  position: absolute;
+  right:0;
+  top:0;
+  z-index: 100;
+}
+
+/* centrer menu horizontalt */
+.menuList  li{
+  margin: 10px;
+  display: inline;
+  width: 100%;
 
 }
 
-.menuList{
-  margin: 0;
+.menuList li a{
+  text-decoration: none;
+}
+.imgSlider img{
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+a{
+  color: black;
+}
+
+a:hover, a:visited, a:active{
+  font-weight: bold;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait),
+       screen and (max-device-width: 740px) and (orientation: landscape),
+       screen and (max-width:740px)
+{
+
 }
