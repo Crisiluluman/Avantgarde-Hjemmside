@@ -19,12 +19,7 @@ ul {
   float: left;
   width: 100%;
 }
-ul.menuList{
-  background-color: grey;
-  right: 0;
-  top: 0;
 
-}
 ul.menuList a{
 
 }
@@ -62,14 +57,16 @@ a.icon{
   background-size: cover;
   width: 100%;
   height: auto;
+
 }
 a{
   color: black;
 }
 
-a:hover, a:visited, a:active{
+a:hover {
   font-weight: bold;
 }
+
 .sitemapList{
   margin-left: 0;
 }
@@ -140,16 +137,15 @@ color: #dedede;
        screen and (max-device-width: 740px) and (orientation: landscape),
        screen and (max-width:740px)
 {
-  .logo img{
-    width: 50%;
-  }
-  .menu a{
-    display: none;
-  }
-  a.icon{
-    display: block;
-  }
-
+    .logo img{
+      width: 50%;
+    }
+    .menu a{
+      display: none;
+    }
+    a.icon{
+      display: block;
+    }
 
     .navBar a:not(:first-child) {
       display: none;
@@ -173,28 +169,41 @@ color: #dedede;
       text-align: left;
     }
 
-  .footerSection{
-    padding: 0;
-    width: 100%;
-  }
-  .aabningstider{
-    float:none;
-    width: 100%;
-  }
-  .kontakt{
-    float: none;
-    width: 100%;
-  }
-  .sitemap{
-    float:none;
-    width: 100%;
-  }
-  .socialLinks{
-    float: none;
-    width: 100%;
-  }
-  ul{
-    padding-left: 0;
-  }
+    ul.menuList{
+      background-color: grey;
+      right: 0;
+      top: 0;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .footerSection{
+      padding: 0;
+      width: 90%;
+      padding: 10px;
+    }
+    .aabningstider{
+      float:none;
+      width: 90%;
+      padding: 10px;
+    }
+    .kontakt{
+      float: none;
+      width: 90%;
+      padding: 10px;
+    }
+    .sitemap{
+      float:none;
+      width: 90%;
+      padding: 10px;
+    }
+    .socialLinks{
+      float: none;
+      width: 90%;
+      padding: 10px;
+    }
+    ul{
+      padding-left: 0;
+    }
 
 }
