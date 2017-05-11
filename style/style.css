@@ -40,6 +40,7 @@ ul.menuList a{
 
 a.icon{
   display: none;
+
 }
 /* centrer menu horizontalt */
 .menuList  li{
@@ -145,6 +146,9 @@ color: #dedede;
     }
     a.icon{
       display: block;
+      right: 0;
+      top: 0;
+      position: fixed;
     }
 
     .navBar a:not(:first-child) {
@@ -170,11 +174,12 @@ color: #dedede;
     }
 
     ul.menuList{
-      background-color: grey;
+      background-color: #fff;
       right: 0;
-      top: 0;
+      top: 40px;
       width: 100%;
       max-width: 100%;
+      position: fixed;
     }
 
     .footerSection{
