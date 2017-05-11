@@ -11,7 +11,7 @@
     <script>
     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
     function rwdMenuToggle() {
-      var toggleMenu = document.getElementById("myTopnav");
+      var toggleMenu = document.getElementById("myNavBar");
       if (toggleMenu.className === "navBar") {
           toggleMenu.className += " responsive";
       } else {
@@ -21,7 +21,7 @@
     </script>
 </head>
 <body>
-  <nav class="navBar">
+  <nav class="navBar" id="myNavBar">
   <div class="logo">
   <a href="index.html">
     <img src="img/logo.png" alt="Avantgarde">
