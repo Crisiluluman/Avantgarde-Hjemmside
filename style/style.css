@@ -24,7 +24,6 @@ ul {
   position: fixed;
   width: 100%;
   background-color: #fff;
-
 }
 
 .menu{
@@ -39,7 +38,6 @@ ul {
   margin: 10px;
   display: inline;
   width: 100%;
-
 }
 
 .menuList li a{
@@ -56,6 +54,57 @@ a{
 
 a:hover, a:visited, a:active{
   font-weight: bold;
+}
+.sitemapList{
+  margin-left: 0;
+}
+.aabningstider{
+  float: left;
+  /*padding: 0px 10% 0px 0%; */
+  width: 22%;
+}
+.kontakt {
+  float:left;
+/*  padding: 0px 10% 0px 10%; */
+  width: 22%;
+}
+.sitemap {
+  float: left;
+  /* padding: 0px 5% 0px 10%; */
+  width: 22%;
+}
+.socialLinks {
+  float:left;
+/*  padding: 0px 0% 0px 15%; */
+  width: 22%;
+}
+
+.footerSection{
+  padding-left: 18%;
+}
+
+#facebook i {
+  color: #3B5998;
+  vertical-align: bottom;
+}
+
+#instagram {
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  border-radius: 18%;
+  float: left;
+  vertical-align: bottom;
+
+/*
+  height: 10%;
+  */
+}
+
+#instagram i{
+  color: #fff;
+  /*border-radius: 18%;
+display: inline-block;
+  */
+
 }
 
 @media screen and (max-device-width: 480px) and (orientation: portrait),
