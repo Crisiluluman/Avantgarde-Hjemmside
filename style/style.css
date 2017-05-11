@@ -31,8 +31,12 @@ ul {
   right:0;
   top:0;
   z-index: 100;
+  margin-top: 15px;
 }
 
+a.icon{
+  display: none;
+}
 /* centrer menu horizontalt */
 .menuList  li{
   margin: 10px;
@@ -42,6 +46,7 @@ ul {
 
 .menuList li a{
   text-decoration: none;
+  font-size: 22px;
 }
 .imgSlider img{
   background-size: cover;
@@ -125,5 +130,37 @@ color: #dedede;
        screen and (max-device-width: 740px) and (orientation: landscape),
        screen and (max-width:740px)
 {
+  .logo img{
+    width: 50%;
+  }
+  .menu a{
+    display: none;
+  }
+  a.icon{
+    display: block;
+  }
+  .footerSection{
+    padding: 0;
+    width: 100%;
+  }
+  .aabningstider{
+    float:none;
+    width: 100%;
+  }
+  .kontakt{
+    float: none;
+    width: 100%;
+  }
+  .sitemap{
+    float:none;
+    width: 100%;
+  }
+  .socialLinks{
+    float: none;
+    width: 100%;
+  }
+  ul{
+    padding-left: 0;
+  }
 
 }
