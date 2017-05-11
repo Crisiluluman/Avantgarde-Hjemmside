@@ -85,18 +85,22 @@ a:hover, a:visited, a:active{
 
 #facebook i {
   color: #3B5998;
+  padding-bottom: 5px;
 }
 
 .facebookLink {
   position: absolute;
   margin-left: 30px;
-  margin-top: -19px;
+  margin-top: -24px;
 }
 
 #instagram {
   background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
   border-radius: 18%;
   float: left;
+  width: 26px;
+  height: 25px;
+  position: absolute;
 
 }
 
@@ -104,10 +108,17 @@ a:hover, a:visited, a:active{
   color: #fff;
 }
 
+.fa-instagram:before {
+margin-top: -18px;
+margin-left: -0.5px;
+position: absolute;
+color: #dedede;
+}
+
 .instagramLink {
   position: absolute;
   margin-left: 30px;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 @media screen and (max-device-width: 480px) and (orientation: portrait),
