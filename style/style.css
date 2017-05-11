@@ -85,26 +85,29 @@ a:hover, a:visited, a:active{
 
 #facebook i {
   color: #3B5998;
-  vertical-align: bottom;
+}
+
+.facebookLink {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: -19px;
 }
 
 #instagram {
   background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
   border-radius: 18%;
   float: left;
-  vertical-align: bottom;
 
-/*
-  height: 10%;
-  */
 }
 
 #instagram i{
   color: #fff;
-  /*border-radius: 18%;
-display: inline-block;
-  */
+}
 
+.instagramLink {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 15px;
 }
 
 @media screen and (max-device-width: 480px) and (orientation: portrait),
