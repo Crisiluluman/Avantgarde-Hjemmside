@@ -46,10 +46,9 @@ a.icon{
   padding: 10px;
 }
 
-.imgSlider img{
-  background-size: cover;
+.test{
+  height: 800px;
   width: 100%;
-  height: auto;
   border-bottom: solid 2px #d77321;
 }
 

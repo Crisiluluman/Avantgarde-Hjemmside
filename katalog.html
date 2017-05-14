@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Katalog</title>
+  <link rel="stylesheet" href="style/katalog.css">
+  <script src="js/katalog.js" charset="utf-8"></script>
+</head>
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function rwdMenuToggle() {
+  var toggleMenu = document.getElementById("myNavBar");
+  if (toggleMenu.className === "navBar") {
+      toggleMenu.className += " responsive";
+  } else {
+      toggleMenu.className = "navBar";
+  }
+}
+</script>
+</head>
+<body>
+<header>
+<nav class="navBar" id="myNavBar">
+<div class="logo">
+<a href="index.html">
+<img src="img/logo.png" alt="Avantgarde">
+</a>
+</div>
+
+<div class="menu">
+<ul class="menuList">
+<li> <a href="index.html"> Forside</a></li>
+<li> <a href="http://www.jegvilbestilletid.dk/avantgarde.hairstudio"> Bestil tid</a></li>
+<li> <a href="katalog.html"> Katalog</a></li>
+<li> <a href="om.html"> Om os</a></li>
+<li> <a href="kontakt.html"> Kontakt</a></li>
+  <a href="javascript:void(0);" class="icon" onclick="rwdMenuToggle()">&#9776;</a>
+ </ul>
+</div>
+</nav>
+
+</header>
+
+<section>
+<div class="test"></div>
+</section>
+
+<footer>
+
+<div class="aabningstider">
+<ul>
+<li><h2>Åbningstider</h2></li>
+<li>søndag og mandag - lukket</li>
+<li>tirsdag 9:00 - 17:30 </li>
+<li>onsdag 9:00 - 20:00 </li>
+<li>onsdag - fredag 9:00 - 17:30</li>
+<li>lørdag - efter aftale</li>
+</ul>
+</div>
+
+<div class="kontakt">
+  <ul>
+  <li><h2>Kontakt os</h2></li>
+  <li>Peder Skrams Gade 14a </li>
+  <li>6700 Esbjerg, Denmark</li>
+  <li>Telefon: 75 45 40 80</li>
+</ul>
+</div>
+
+<div class="sitemap">
+  <ul class="sitemapList">
+  <li> <h2>Sitemap</h2></li>
+  <li> <a href="index.html"> Forside</a></li>
+  <li> <a href="http://www.jegvilbestilletid.dk/avantgarde.hairstudio"> Bestil tid</a></li>
+  <li> <a href="katalog.html"> Katalog</a></li>
+  <li> <a href="om.html"> Om os</a></li>
+  <li> <a href="kontakt.html"> Kontakt</a></li>
+   </ul>
+</div>
+
+<div class="socialLinks">
+  <ul>
+    <li> <h2> Find os på</h2></li>
+    <li> <a href="https://www.facebook.com/AVANTGARDE-272260116152667/" target="_blank">
+      <div id="facebook">
+          <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+      </div>
+      <div class="facebookLink">
+        <a href="https://www.facebook.com/AVANTGARDE-272260116152667/" target="_blank">Facebook </a>
+      </div>
+  </a>
+</li>
+<br>
+<li> <a href="https://www.instagram.com/avantgardehairstudio/" target="_blank">
+    <div id="instagram">
+        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+    </div>
+    <div class="instagramLink">
+     <a href="https://www.instagram.com/avantgardehairstudio/" target="_blank">Instagram </a>
+</div>
+</a>
+</li>
+  </li>
+</ul>
+</div>
+
+</footer>
+
+</body>
+</html>
