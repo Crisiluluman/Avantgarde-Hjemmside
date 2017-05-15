@@ -4,82 +4,11 @@ body {
   font-family: arial;
 }
 
-/* Katalog.html starts */
-
-#katalogPic {
-  height: 660px;
-  width: 100%;
-  border-bottom: solid 2px #d77321;
-}
-
-h3 {
-  float: left;
-  position: relative;
-  top: -28%;
-  right: -38%;
-  z-index: -1;
-}
-
-#text_1 {
-  float: left;
-  right: -110%;
-  top: -20%;
-  width: 90%;
-  position: relative;
-  z-index: -1;
-}
-
-
-.pic_1 img{
-  height: 13vw;
-  width: 13%;
-  z-index: -1;
-  float: left;
-  border-radius: 40%;
-  margin-top: 20%;
-}
-
-.pic_2 img{
-  height: 13vw;
-  width: 13%;
-  z-index: -1;
-  float: left;
-  border-radius: 40%;
-  position: relative;
-  top: 20%;
-  right: -10%;
-}
-
-.pic_3 img{
-  height: 13vw;
-  width: 13%;
-  z-index: -1;
-  float: left;
-  border-radius: 40%;
-  position: relative;
-  top: 20%;
-  right: 0%;
-}
-
-.pic_4 img{
-  height: 13vw;
-  width: 13%;
-  z-index: -1;
-  float: left;
-  border-radius: 40%;
-  position: relative;
-  top: 80%;
-  right: 0%;
-}
-
-
-/* Katalog.html stops */
 
 .logo img{
   margin: 10px;
   width: 10%;
   height: 10%;
-  z-index: 1;
 }
 
 ul {
@@ -117,10 +46,9 @@ a.icon{
   padding: 10px;
 }
 
-.imgSlider img{
-  background-size: cover;
+.test{
+  height: 800px;
   width: 100%;
-  height: auto;
   border-bottom: solid 2px #d77321;
 }
 
@@ -156,7 +84,6 @@ footer{
 /*  padding: 0px 0% 0px 15%; */
   width: 25%;
 }
-
 
 
 
