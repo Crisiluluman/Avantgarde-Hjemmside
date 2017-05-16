@@ -189,7 +189,7 @@ body {
   border-radius: 50%;
   position: relative;
   margin-top: -13.5%;
-  right: -66.5%;
+  right: -69.5%;
   border: solid 2px green;
 }
 
@@ -198,8 +198,8 @@ body {
   height: 50%;
   float: left;
   position: relative;
-  margin-top: -15.4%;
-    right: -80.5%;
+  margin-top: -10.4%;
+  right: -81%;
   z-index: -1;
 }
 
