@@ -9,7 +9,8 @@ body {
 #katalogPic {
   height: 45vw;
   width: 100%;
-  border-bottom: solid 2px #d77321;
+  border-bottom: solid 4px #d77321;
+/*  padding-top: 100px; */
 }
 
 /* Picture 1 Crew */
@@ -24,13 +25,13 @@ body {
 .pic_1 img{
   height: 13vw;
   width: 13%;
-  z-index: -1;
+  z-index: 0;
   float: left;
   border-radius: 50%;
   position: relative;
   margin-top: 9%;
   right: -4%;
-  border: solid 2px black;
+  border: solid 3px #d77321;
 }
 
 #tekst_1 {
@@ -56,13 +57,13 @@ body {
 .pic_2 img{
   height: 13vw;
   width: 13%;
-  z-index: -1;
+  z-index: 0;
   float: left;
   border-radius: 50%;
   position: relative;
   margin-top: 9%;
   right: -6%;
-  border: solid 2px blue;
+  border: solid 4px #d77321;
 }
 
 #tekst_2 {
@@ -88,13 +89,13 @@ body {
 .pic_3 img{
   height: 13vw;
   width: 13%;
-  z-index: -1;
+  z-index: 0;
   float: left;
   border-radius: 50%;
   position: relative;
   margin-top: 9%;
   right: -8.5%;
-  border: solid 2px red;
+  border: solid 4px #d77321;
 }
 
 #tekst_3 {
@@ -120,13 +121,13 @@ body {
 .pic_4 img{
   height: 13vw;
   width: 13%;
-  z-index: -1;
+  z-index: 0;
   float: left;
   border-radius: 50%;
   position: relative;
   margin-top: 13.5%;
   right: 70%;
-  border: solid 2px green;
+  border: solid 4px #d77321;
 }
 
 #tekst_4 {
@@ -135,30 +136,30 @@ body {
   float: left;
   position: relative;
   margin-top: -10.5%;
-  right: -18.5%;
+  right: -19.5%;
   z-index: -1;
 }
 
-/* Picture 4 Kera */
+/* Picture 5 Stuff */
 
 .pic_5 h3 {
   float: left;
   position: relative;
   margin-top: -15.4%;
-  right: -41.3%;
+  right: -28.3%;
   z-index: -1;
 }
 
 .pic_5 img{
   height: 13vw;
   width: 13%;
-  z-index: -1;
+  z-index: 0;
   float: left;
   border-radius: 50%;
   position: relative;
   margin-top: -13.5%;
   right: -36.5%;
-  border: solid 2px green;
+  border: solid 4px #d77321;
 }
 
 #tekst_5 {
@@ -167,30 +168,30 @@ body {
   float: left;
   position: relative;
   margin-top: -10.5%;
-  right: -50.5%;
+  right: -37.5%;
   z-index: -1;
 }
 
-/* Picture 4 Kera */
+/* Picture 6 Stuff */
 
 .pic_6 h3 {
   float: left;
   position: relative;
-  margin-top: 11.5%;
-  right: 78.7%;
+  margin-top: -15.4%;
+  right: -48.3%;
   z-index: -1;
 }
 
 .pic_6 img{
   height: 13vw;
   width: 13%;
-  z-index: -1;
+  z-index: 0;
   float: left;
   border-radius: 50%;
   position: relative;
   margin-top: -13.5%;
-  right: -69.5%;
-  border: solid 2px green;
+  right: -56.5%;
+  border: solid 4px #d77321;
 }
 
 #tekst_6 {
@@ -198,12 +199,12 @@ body {
   height: 50%;
   float: left;
   position: relative;
-  margin-top: -10.4%;
-  right: -81%;
+  margin-top: -10.5%;
+  right: -57.5%;
   z-index: -1;
 }
 
-/* Katalog.html stops */
+/* Katalog.html ends */
 
 .logo img{
   margin: 10px;
@@ -223,7 +224,8 @@ ul {
   width: 100%;
   background-color: #fff;
   height: auto;
-  border-bottom: solid 2px #d77321;
+  border-bottom: solid 4px #d77321;
+  z-index: 1;
 }
 
 .menu{
@@ -257,7 +259,7 @@ a.icon{
   display: block;
   width: auto;
   height: auto;
-  border-bottom: solid 2px #d77321;
+  border-bottom: solid 4px #d77321;
 }
 
 .w3-container{
@@ -449,10 +451,14 @@ color: #dedede;
       padding: 10px;
     }
     .socialLinks{
-      float: none;
+        float: none;
       width: 100%;
       padding: 10px;
     }
 
+/* Katalog.html starts */
 
+
+
+/* Katalog.html ends */
 }
