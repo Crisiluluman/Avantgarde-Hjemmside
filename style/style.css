@@ -289,20 +289,29 @@ a:hover {
   font-weight: bold;
 }
 
+.kontaktHolder{
+  padding-top: 20vh;
+}
+.aabenTxt{
+  float: left;
+}
+
+.seoTxt{
+  float:left;
+}
 .kontaktTxt{
   padding: 15vh 0vw;
-  border-bottom: solid 2px #d77321;
+  float: left;
 }
 
 .gmaps {
-
   width: 100%;
   height: 40vh;
   z-index: 1;
 }
 
 #gmap_canvas{
-  z-index: -1;
+  z-index: 0;
   width: 100%;
   padding-top: 50vh;
   position: relative;
