@@ -451,13 +451,53 @@ color: #dedede;
       padding: 10px;
     }
     .socialLinks{
-        float: none;
+      float: none;
       width: 100%;
       padding: 10px;
     }
 
 /* Katalog.html starts */
+#katalogPic {
+  height: 45vw;
+}
+/* Picture 1 Responsive */
+.pic_1 h3{
+}
 
+.pic_1 img{
+  height: 250px;
+  width: 250px;
+  margin-top: 10%;
+
+}
+
+#tekst_1 {
+}
+
+/* Picture 2 Responsive */
+
+.pic_2 h3 {
+  float: left;
+  position: relative;
+  margin-top: 7%;
+  right: 2%;
+  z-index: -1;
+}
+
+.pic_2 img{
+  height: 250px;
+  width: 250px;
+}
+
+#tekst_2 {
+  width: 14%;
+  height: 50%;
+  float: left;
+  position: relative;
+  margin-top: 12%;
+  right: -4%;
+  z-index: -1;
+}
 
 
 /* Katalog.html ends */
