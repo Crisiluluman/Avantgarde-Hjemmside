@@ -122,9 +122,9 @@ a.icon{
   font-size: 20px;
   padding: 10px;
 }
+
 .sliderWrapper{
   height: 80vh;
-
 }
 
  .mySlides{
@@ -136,12 +136,22 @@ a.icon{
   border-bottom: solid 2px #d77321;
 }
 
+.w3-container{
+  margin: 0 auto;
+  z-index: 1;
+}
 
 .w3-left, .w3-right, .w3-badge {
-  cursor:pointer
+  cursor:pointer;
 }
-.w3-badge {
-  height:13px;width:13px;padding:0
+
+.w3-badge, .w3-tag{
+  padding: 5px;
+  position: relative;
+  padding-top: 10px;
+  top: -25px;
+  left: 50%;
+
 }
 
 
@@ -229,6 +239,7 @@ color: #dedede;
 
     .menu a{
       display: none;
+
     }
     a.icon{
       display: block;
@@ -287,6 +298,10 @@ color: #dedede;
       width: auto;
       max-height: 100%;
       min-height: 100%;
+    }
+
+    .w3-container{
+      display: none;
     }
 
     .footerSection{
