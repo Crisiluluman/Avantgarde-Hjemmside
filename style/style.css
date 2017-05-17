@@ -290,20 +290,30 @@ a:hover {
 }
 
 .kontaktHolder{
-  padding-top: 20vh;
+  width: 100vw;
+  padding-top: 10vh;
+  padding-bottom: 30vh;
+  border-bottom: solid 4px #d77321;
 }
-.aabenTxt{
-  float: left;
-}
+
 
 .seoTxt{
+  padding-right: 15vw;
   float:left;
-}
-.kontaktTxt{
-  padding: 15vh 0vw;
-  float: left;
+  padding-left: 5vw;
 }
 
+.kontaktTxt{
+  padding-right: 15vw;
+  float: left;
+  padding-left: 5vw;
+}
+
+.aabenTxt{
+  padding-right: 15vw;
+  float: left;
+  padding-left: 5vw;
+}
 .gmaps {
   width: 100%;
   height: 40vh;
