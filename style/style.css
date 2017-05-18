@@ -8,117 +8,119 @@ body {
 
 #katalogPic {
   height: 45vw;
-  width: 100%;
+  width: 90%;
   border-bottom: solid 4px #d77321;
 /*  padding-top: 100px; */
 }
 
 /* Picture 1 Crew */
-.pic_1 h3 {
-  float: left;
-  position: relative;
-  margin-top: 7%;
-  right: 4.5%;
-  z-index: -1;
+.pic_1_holder {
+  padding-top: 6%;
 }
 
-.pic_1 img{
-  height: 13vw;
-  width: 13%;
-  z-index: 0;
-  float: left;
-  border-radius: 50%;
+#pic_1_h3 {
+  top: -1%;
   position: relative;
-  margin-top: 9%;
-  right: -4%;
+  right: -1.2%;
+  width: 15%
+}
+
+.pic_1_holder img{
   border: solid 3px #d77321;
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  max-width: 50%;
+  max-height: 50%;
+  float: left;
 }
 
-#tekst_1 {
+#pic_1_tekst {
   width: 14%;
   height: 50%;
   float: left;
+  top: -4%;
+  right: -1.2%;
   position: relative;
-  margin-top: 12%;
-  right: -2%;
-  z-index: -1;
 }
 
 /* Picture 2 GHD */
 
-.pic_2 h3 {
+.pic_2_holder {
   float: left;
   position: relative;
-  margin-top: 7%;
-  right: 2%;
-  z-index: -1;
+  top: -59%;
+  width: 100%;
 }
 
-.pic_2 img{
+#pic_2_h3 {
+  top: -6.8%;
+  position: relative;
+  right: -26.2%;
+  width: 15%
+}
+
+.pic_2_holder img{
+  border: solid 3px #d77321;
+  border-radius: 50%;
   height: 13vw;
   width: 13%;
-  z-index: 0;
   float: left;
-  border-radius: 50%;
-  position: relative;
-  margin-top: 9%;
-  right: -6%;
-  border: solid 4px #d77321;
 }
 
-#tekst_2 {
+#pic_2_tekst {
   width: 14%;
   height: 50%;
   float: left;
+  top: -83.8%;
+  right: -55.3%;
   position: relative;
-  margin-top: 12%;
-  right: -4%;
-  z-index: -1;
 }
 
 /* Picture 3 Redken */
 
-.pic_3 h3 {
+.pic_3_holder {
   float: left;
   position: relative;
-  margin-top: 7%;
-  right: 0%;
-  z-index: -1;
+  top: -59%;
+  padding-left: 41%;
+  width: 100%;
 }
 
-.pic_3 img{
+#pic_3_h3 {
+  top: -6.8%;
+  position: relative;
+  right: -26.2%;
+}
+
+.pic_3_holder img{
+  border: solid 3px #d77321;
+  border-radius: 50%;
   height: 13vw;
   width: 13%;
-  z-index: 0;
   float: left;
-  border-radius: 50%;
-  position: relative;
-  margin-top: 9%;
-  right: -8.5%;
-  border: solid 4px #d77321;
 }
 
-#tekst_3 {
+#pic_3_tekst {
   width: 14%;
   height: 50%;
   float: left;
+  top: -83.8%;
+  right: -55.3%;
   position: relative;
-  margin-top: 12%;
-  right: -6.5%;
-  z-index: -1;
 }
 
 /* Picture 4 Kera */
 
-.pic_4 h3 {
+#pic_4_h3 {
   float: left;
   position: relative;
   margin-top: 11.5%;
   right: 78.7%;
-  z-index: -1;
+  z-index: 0;
 }
 
-.pic_4 img{
+.pic_4_holder img{
   height: 13vw;
   width: 13%;
   z-index: 0;
@@ -130,27 +132,27 @@ body {
   border: solid 4px #d77321;
 }
 
-#tekst_4 {
+#pic_4_tekst {
   width: 14%;
   height: 50%;
   float: left;
   position: relative;
   margin-top: -10.5%;
   right: -19.5%;
-  z-index: -1;
+  z-index: 0;
 }
 
 /* Picture 5 Stuff */
 
-.pic_5 h3 {
+#pic_5_h3 {
   float: left;
   position: relative;
   margin-top: -15.4%;
   right: -28.3%;
-  z-index: -1;
+  z-index: 0;
 }
 
-.pic_5 img{
+.pic_5_holder img{
   height: 13vw;
   width: 13%;
   z-index: 0;
@@ -162,27 +164,27 @@ body {
   border: solid 4px #d77321;
 }
 
-#tekst_5 {
+#pic_5_tekst {
   width: 14%;
   height: 50%;
   float: left;
   position: relative;
   margin-top: -10.5%;
   right: -37.5%;
-  z-index: -1;
+  z-index: 0;
 }
 
 /* Picture 6 Stuff */
 
-.pic_6 h3 {
+#pic_6_h3 {
   float: left;
   position: relative;
   margin-top: -15.4%;
   right: -48.3%;
-  z-index: -1;
+  z-index: 0;
 }
 
-.pic_6 img{
+.pic_6_holder img{
   height: 13vw;
   width: 13%;
   z-index: 0;
@@ -194,14 +196,14 @@ body {
   border: solid 4px #d77321;
 }
 
-#tekst_6 {
+#pic_6_tekst {
   width: 14%;
   height: 50%;
   float: left;
   position: relative;
   margin-top: -10.5%;
   right: -57.5%;
-  z-index: -1;
+  z-index: 0;
 }
 
 /* Katalog.html ends */
@@ -495,51 +497,58 @@ color: #dedede;
 
 /* Katalog.html starts */
 #katalogPic {
-  height: 100vh;
-  padding-bottom: 180vh;
+  height: 100%;
+  padding-bottom: 10vh;
   margin: 0 auto;
   width: 100%;
 }
 /* Picture 1 Responsive */
-.pic_1, .pic_2 {
+.pic_1_holder, .pic_2_holder, .pic_3_holder, .pic_4_holder, .pic_5_holder, .pic_6_holder {
   float: none;
+  height: 60vh;
   width: 90%;
+  max-width: 100%;
+  max-height: 100%;
   padding-top: 18%;
-  margin-left: 5%;
+  padding-left: 5%;
+  margin: 0;
+  margin-right: 0%;
 }
 
-#pic_1_h3 {
+#pic_1_h3, #pic_2_h3, #pic_3_h3, #pic_4_h3, #pic_5_h3, #pic_6_h3 {
   float: none;
   padding-top: 1%;
-  padding-left: 8%;
+  padding-left: 45%;
+  right: 0;
+  margin: 0;
 }
 
-#pic_1_tekst {
+#pic_1_tekst, #pic_2_tekst, #pic_3_tekst, #pic_4_tekst, #pic_5_tekst, #pic_6_tekst {
   float: none;
   width: 90%;
-  padding-top: 1%;
   padding-left: 8%;
+  right: 0;
+  margin: 0;
 }
 
-.pic_1 h3{
+.pic_1_holder img, .pic_2_holder img, .pic_3_holder img, .pic_4_holder img, .pic_5_holder img, .pic_6_holder img {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
   float: none;
   right: 0;
-  margin-top: 0;
+  margin: 0;
+
 }
 
-.pic_1 img{
-  height: 45vh;
-  width: 90vw;
-  float: none;
-  right: 0;
-  margin-top: 0;
-}
-
-/* Picture 2 Responsive */
+/* Picture 2 Responsive
 #pic_2_h3 {
   float: none;
   padding-top: 1%;
   padding-left: 8%;
+  right: 0;
+  margin-top: 0;
 }
 
 #pic_2_tekst {
@@ -547,21 +556,116 @@ color: #dedede;
   width: 90%;
   padding-top: 1%;
   padding-left: 8%;
-}
-
-.pic_2 h3{
-  float: none;
   right: 0;
-  margin-top: 0;
 }
 
-.pic_2 img{
+.pic_2_holder img{
   height: 45vh;
   width: 90vw;
   float: none;
   right: 0;
   margin-top: 0;
 }
+
+/* Picture 3 Responsive
+#pic_3_h3 {
+  float: none;
+  padding-top: 1%;
+  padding-left: 8%;
+  right: 0;
+  margin-top: 0;
+}
+
+#pic_3_tekst {
+  float: none;
+  width: 90%;
+  padding-top: 1%;
+  padding-left: 8%;
+  right: 0;
+}
+
+.pic_3_holder img{
+  height: 45vh;
+  width: 90vw;
+  float: none;
+  right: 0;
+  margin-top: 0;
+}
+
+/* Picture 4 Responsive
+#pic_4_h3 {
+  float: none;
+  padding-top: 1%;
+  padding-left: 8%;
+  right: 0;
+  margin-top: 0;
+}
+
+#pic_4_tekst {
+  float: none;
+  width: 90%;
+  padding-top: 1%;
+  padding-left: 8%;
+  right: 0;
+}
+
+.pic_4_holder img{
+  height: 45vh;
+  width: 90vw;
+  float: none;
+  right: 0;
+  margin-top: 0;
+}
+
+/* Picture 5 Responsive
+#pic_5_h3 {
+  float: none;
+  padding-top: 1%;
+  padding-left: 8%;
+  right: 0;
+  margin-top: 0;
+}
+
+#pic_5_tekst {
+  float: none;
+  width: 90%;
+  padding-top: 1%;
+  padding-left: 8%;
+  right: 0;
+}
+
+.pic_5_holder img{
+  height: 45vh;
+  width: 90vw;
+  float: none;
+  right: 0;
+  margin-top: 0;
+}
+/* Picture 6 Responsive
+#pic_6_h3 {
+  float: none;
+  padding-top: 1%;
+  padding-left: 8%;
+  right: 0;
+  margin-top: 0;
+}
+
+#pic_6_tekst {
+  float: none;
+  width: 90%;
+  padding-top: 1%;
+  padding-left: 8%;
+  right: 0;
+}
+
+.pic_6_holder img{
+  height: 45vh;
+  width: 90vw;
+  float: none;
+  right: 0;
+  margin-top: 0;
+}
+*/
 
 /* Katalog.html ends */
 }
