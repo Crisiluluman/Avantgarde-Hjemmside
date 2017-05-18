@@ -9,12 +9,9 @@ body {
 
 #katalogPic {
   height: 45vw;
-<<<<<<< HEAD
   width: 90%;
   border-bottom: solid 4px #d77321;
-=======
   width: 100%;
->>>>>>> ced44cf64260cb0c2a48b13bd5aaba596690e318
 /*  padding-top: 100px; */
 }
 
@@ -294,36 +291,46 @@ a{
 a:hover {
   font-weight: bold;
 }
+.kontaktSec{
+  width: 100%;
+  height: 35vh;
+  padding-bottom: 10vh;
+  border-bottom: solid 4px #d77321;
+
+}
 
 .kontaktHolder{
-  width: auto;
+  width: 50%;
   height: auto;
-  padding-top: 10vh;
-  padding-bottom: 20vh;
+  min-height: 100%;
 
+  padding-left: 25vw;
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between;
 }
 
 
 #KontaktH1{
+  padding-top: 15vh;
   font-size: 30px;
   text-align: center;
-
-}
-.seoTxt{
-  float:left;
-  padding-left: 25vw;
-  padding-right: 7vw;
-}
-
-.kontaktTxt{
-  float: left;
-  padding-right: 7vw;
 }
 
 .aabenTxt{
   float: left;
-  padding-right: 7vw;
+  width: 30%;
+}
 
+.seoTxt{
+  float:left;
+  width: 30%;
+}
+
+.kontaktTxt{
+  float: left;
+  width: 30%;
 }
 .gmaps {
   width: 100%;
@@ -340,8 +347,8 @@ a:hover {
 footer{
   width: 100%;
   margin: 0 auto;
-  border-top: solid 4px #d77321;
   z-index: 0;
+  position: absolute;
 }
 .aabningstider{
   float: left;
@@ -489,6 +496,7 @@ footer{
       float: none;
       text-align: center;
       padding: 10px;
+      width: 90vw;
     }
 
     .kontaktTxt{
