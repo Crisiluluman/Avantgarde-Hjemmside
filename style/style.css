@@ -6,11 +6,11 @@ body {
 
 }
 
+/* FUCK GItHUB */
 
 /* Katalog.html starts */
 #katalogPic {
   height: 45vw;
-<<<<<<< HEAD
   width: 100%;
   border-bottom: solid 4px #D77321;
 }
@@ -28,12 +28,9 @@ body {
 #row5_6 {
   float: left;
   width: 33%;
-=======
   width: 90%;
   border-bottom: solid 4px #BAC4DB;
   width: 100%;
-/*  padding-top: 100px; */
->>>>>>> 6d03e492e329493cd0a98006f1b5d14bc0d2aff7
 }
 
 
@@ -123,14 +120,11 @@ body {
   height: 13vw;
   width: 13%;
   float: left;
-<<<<<<< HEAD
   border-radius: 50%;
   position: relative;
   margin-top: 13.5%;
   right: 70%;
   border: solid 4px #BAC4DB;
-=======
->>>>>>> origin/master
 }
 
 #pic_4_tekst {
