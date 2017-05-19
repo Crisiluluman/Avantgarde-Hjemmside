@@ -10,179 +10,60 @@ body {
 
 /* Katalog.html starts */
 #katalogPic {
-  height: 45vw;
+  height: 60vw;
   width: 100%;
-  border-bottom: solid 4px #D77321;
+
 }
 
 #row1_2 {
   float: left;
-  width: 33%;
+  width: 33.3%;
+  padding-bottom: 2%;
+  border-bottom: solid 4px #D77321;
+  padding-top: 1%;
 }
 
 #row3_4 {
   float: left;
-  width: 33%;
+  width: 33.3%;
+  padding-bottom: 2%;
+  border-bottom: solid 4px #D77321;
+  padding-top: 1%;
 }
 
 #row5_6 {
   float: left;
-  width: 33%;
+  width: 33.3%;
+  padding-bottom: 2%;
+  border-bottom: solid 4px #D77321;
+  padding-top: 1%;
 }
 
-
-/* Picture 1 Crew */
-.pic_1_holder {
+.pic_1_holder, .pic_2_holder, .pic_3_holder, .pic_4_holder, .pic_5_holder, .pic_6_holder {
   float: left;
+  padding-top: 17%;
+  padding-left: 5%;
 }
 
-#pic_1_h3 {
-  width: 20%
+#pic_1_h3, #pic_2_h3, #pic_3_h3 , #pic_4_h3 , #pic_5_h3 , #pic_6_h3 {
+  width: 20%;
+  float: left;
+  padding-left: 6%;
 }
 
-.pic_1_holder img{
+.pic_1_holder img, .pic_2_holder img, .pic_3_holder img, .pic_4_holder img, .pic_5_holder img, .pic_6_holder img {
   border: solid 3px #D77321;
   border-radius: 50%;
-  height: 13vw;
-  width: 13%;
+  height: 18vw;
+  width: 58%;
   float: left;
 }
 
-#pic_1_tekst {
-  width: 50%;
+#pic_1_tekst, #pic_2_tekst, #pic_3_tekst, #pic_4_tekst, #pic_5_tekst, #pic_6_tekst {
+  width: 35%;
   height: 20%;
-  float: left;
-}
-
-/* Picture 2 GHD */
-
-.pic_2_holder {
-  float: left;
-}
-
-#pic_2_h3 {
-  width: 20%
-}
-
-.pic_2_holder img{
-  border: solid 3px #D77321;
-  border-radius: 50%;
-  height: 13vw;
-  width: 13%;
-  float: left;
-}
-
-#pic_2_tekst {
-  width: 15%;
-  height: 20%;
-  float: left;
-}
-
-/* Picture 3 Redken */
-.pic_3_holder {
-  float: left;
-}
-
-#pic_3_h3 {
-  width: 20%
-}
-
-.pic_3_holder img{
-  border: solid 3px #D77321;
-  border-radius: 50%;
-  height: 13vw;
-  width: 13%;
-  float: left;
-}
-
-#pic_3_tekst {
-  width: 15%;
-  height: 20%;
-  float: left;
-}
-
-
-/* Picture 4 Kera */
-.pic_4_holder {
-  float: left;
-}
-
-#pic_4_h3 {
-  width: 20%
-}
-
-.pic_4_holder img{
-  border-radius: 50%;
-  height: 13vw;
-  width: 13%;
-  float: left;
-  border-radius: 50%;
-  position: relative;
-  margin-top: 13.5%;
-  right: 70%;
-  border: solid 4px #D77321;
-}
-
-#pic_4_tekst {
-  width: 15%;
-  height: 20%;
-  float: left;
-}
-
-
-/* Picture 5 Stuff */
-.pic_5_holder {
-  float: left;
-}
-
-#pic_5_h3 {
-  width: 20%
-}
-
-.pic_5_holder img{
-  border-radius: 50%;
-  height: 13vw;
-  width: 13%;
-  float: left;
-  border-radius: 50%;
-  position: relative;
-  margin-top: -13.5%;
-  right: -36.5%;
-  border: solid 4px #D77321;
-}
-
-#pic_5_tekst {
-  width: 15%;
-  height: 20%;
-  float: left;
-}
-
-
-/* Picture 6 Stuff */
-.pic_6_holder {
-  float: left;
-}
-
-#pic_6_h3 {
-  width: 20%
-}
-
-.pic_6_holder img{
-  border-radius: 50%;
-  height: 13vw;
-  width: 13%;
-  float: left;
-  border-radius: 50%;
-  position: relative;
-  margin-top: -13.5%;
-  right: -56.5%;
-  border: solid 4px #D77321;
-}
-
-#pic_6_tekst {
-  width: 15%;
-  height: 20%;
-  float: left;
+  float: right;
+  padding-left: 2%;
 }
 
 /* Katalog.html ends */
@@ -324,7 +205,7 @@ footer{
   width: 100%;
   margin: 0 auto;
   z-index: 0;
-  position: absolute;
+  position: relative;
 }
 .aabningstider{
   float: left;
@@ -409,7 +290,7 @@ footer{
       right: 0;
       top: 0;
       position: fixed;
-      border-bottom: solid 2px #BAC4DB;
+      border-bottom: solid 2px #D77321;
       padding: 14px 16px;
     }
     .navBar{
@@ -422,7 +303,7 @@ footer{
       display: block;
       float: right;
       text-decoration: none;
-      background-color: #BAC4DB;
+      background-color: #D77321;
       color: #fff;
     }
       .navBar.responsive {
@@ -541,7 +422,7 @@ footer{
   max-height: 100%;
   margin: 0;
   margin-right: 0%;
-  padding-top: 50%;
+  padding-top: 70%;
   right: 0;
   padding-left: 4%;
 }
@@ -560,6 +441,7 @@ footer{
   right: 0;
   margin: 0;
   padding-left: 8%;
+
 }
 
 .pic_1_holder img, .pic_2_holder img, .pic_3_holder img, .pic_4_holder img, .pic_5_holder img, .pic_6_holder img {
@@ -571,12 +453,74 @@ footer{
   right: 0;
   margin: 0;
 
+
 }
 
 #row1_2, #row3_4, #row5_6 {
   float: none;
   width: 100%;
+  border-bottom: none;
 }
 
-/* Katalog.html ends */
+/* Katalog.html ends
+}
+
+@media screen and (min-device-width: 1024px) and (orientation: portrait),
+       screen and (min-device-height: 1366px) and (orientation: landscape),
+       screen and (max-width:1024px)
+{
+  #row1_2 {
+    float: left;
+    width: 33.3%;
+    padding-bottom: 2%;
+    border-bottom: solid 4px #D77321;
+    padding-top: 1%;
+  }
+
+  #row3_4 {
+    float: left;
+    width: 33.3%;
+    padding-bottom: 2%;
+    border-bottom: solid 4px #D77321;
+    padding-top: 1%;
+  }
+
+  #row5_6 {
+    float: left;
+    width: 33.3%;
+    padding-bottom: 2%;
+    border-bottom: solid 4px #D77321;
+    padding-top: 1%;
+  }
+
+  .pic_1_holder, .pic_2_holder, .pic_3_holder, .pic_4_holder, .pic_5_holder, .pic_6_holder {
+    float: left;
+    padding-top: 23%;
+    padding-left: 5%;
+  }
+
+  #pic_1_h3, #pic_2_h3, #pic_3_h3 , #pic_4_h3 , #pic_5_h3 , #pic_6_h3 {
+    width: 20%;
+    float: left;
+    padding-right: 17%;
+    padding-left: 22%;
+    padding-top: 2%;
+  }
+
+  .pic_1_holder img, .pic_2_holder img, .pic_3_holder img, .pic_4_holder img, .pic_5_holder img, .pic_6_holder img {
+    border: solid 3px #D77321;
+    border-radius: 50%;
+    height: 18vw;
+    width: 58%;
+    float: left;
+  }
+
+  #pic_1_tekst, #pic_2_tekst, #pic_3_tekst, #pic_4_tekst, #pic_5_tekst, #pic_6_tekst {
+    width: 61%;
+    height: 20%;
+    float: right;
+    padding-bottom: 0%;
+    padding-right: 36%;
+  }*/
+
 }
