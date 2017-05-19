@@ -289,7 +289,7 @@ a:hover {
 .kontaktSec{
   width: 100%;
   height: 35vh;
-  padding-bottom: 10vh;
+  padding-bottom: 2vh;
   border-bottom: solid 4px #BAC4DB;
 
 }
@@ -307,7 +307,7 @@ a:hover {
 
 
 #KontaktH1{
-  padding-top: 15vh;
+  padding-top: 10vh;
   font-size: 30px;
   text-align: center;
 }
