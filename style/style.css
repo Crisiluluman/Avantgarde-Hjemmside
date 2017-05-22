@@ -6,7 +6,6 @@ body {
 
 }
 
-/* FUCK GItHUB */
 
 /* Katalog.html starts */
 #katalogPic {
@@ -69,6 +68,77 @@ body {
 }
 
 /* Katalog.html ends */
+
+
+/* OmOs.html starts */
+.omOs_section {
+  height: 45vw;
+  width: 100%;
+}
+
+#elisabeth_holder {
+  float: left;
+  width: 33.3%;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-left: 19%
+}
+
+#rikke_holder {
+  float: left;
+  width: 33.3%;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-left: 8%;
+}
+
+.rikke_pic, .elisabeth_pic {
+  float: left;
+  padding-top: 17%;
+  padding-left: 5%;
+}
+
+#elisabeth_h3, #rikke_h3 {
+  width: 20%;
+  float: left;
+  padding-left: 6%;
+  color: #4b453d;
+}
+
+.elisabeth_pic img, .rikke_pic img {
+  border: solid 3px #5e5e5b;
+  border-radius: 50%;
+  height: 18vw;
+  width: 58%;
+  float: left;
+}
+
+#elisabeth_tekst, #rikke_tekst {
+  width: 35%;
+  height: 20%;
+  float: right;
+  padding-left: 2%;
+  color: #4b453d;
+}
+
+#seo_omOs {
+  border-top: solid 4px #c2c1c0;
+  width: 100%;
+  height: 57vh;
+  clear: both;
+}
+
+#om_seo_title {
+text-align: center;
+}
+
+#om_seo_p {
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 1%;
+}
+
+/* OmOs.html ends */
 
 .logo img{
   margin: 10px;
