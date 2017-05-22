@@ -6,7 +6,10 @@ body {
 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cfa7d323996141ad19a6e4dcdd39c176f212f5d1
 /* Katalog.html starts */
 #katalogPic {
   height: 50vw;
@@ -191,7 +194,7 @@ a.icon{
 
  .mySlides{
   max-width: 100%;
-  max-height: 81vh;
+  max-height: 80vh;
   display: block;
   width: auto;
   height: auto;
@@ -276,7 +279,7 @@ a:hover {
 footer{
   clear: both;
   width: 100%;
-  height: 30vh;
+  height: 21vh;
   margin: 0 auto;
   z-index: 0;
   position: relative;
@@ -433,6 +436,7 @@ footer{
       width: auto;
       max-height: 100%;
       min-height: 100%;
+      border-bottom: solid 4px #c2c1c0;
     }
 
     .w3-container{
