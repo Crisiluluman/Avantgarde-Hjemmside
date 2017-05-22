@@ -79,30 +79,36 @@ body {
   width: 100%;
 }
 
+/*.omOs_section h1 {
+  text-align: center;
+  padding-top: 5%;
+  z-index: 1;
+}*/
+
 #elisabeth_holder {
   float: left;
-  width: 33.3%;
+  width: 45%;
   padding-bottom: 2%;
-  padding-top: 1%;
-  padding-left: 19%
+  padding-top: 5%;
+  padding-left: 8%
 }
 
 #rikke_holder {
   float: left;
-  width: 33.3%;
+  width: 45%;
   padding-bottom: 2%;
-  padding-top: 1%;
-  padding-left: 8%;
+  padding-top: 5%;
+  padding-left: 1%;
 }
 
 .rikke_pic, .elisabeth_pic {
   float: left;
-  padding-top: 17%;
+  padding-top: 5%;
   padding-left: 5%;
 }
 
 #elisabeth_h3, #rikke_h3 {
-  width: 20%;
+  width: 41%;
   float: left;
   padding-left: 6%;
   color: #4b453d;
@@ -112,12 +118,12 @@ body {
   border: solid 3px #5e5e5b;
   border-radius: 50%;
   height: 18vw;
-  width: 58%;
+  width: 45%;
   float: left;
 }
 
 #elisabeth_tekst, #rikke_tekst {
-  width: 35%;
+  width: 48%;
   height: 20%;
   float: right;
   padding-left: 2%;
@@ -125,6 +131,7 @@ body {
 }
 
 #seo_omOs {
+  border-bottom: solid 4px #c2c1c0;
   border-top: solid 4px #c2c1c0;
   width: 100%;
   height: 57vh;
