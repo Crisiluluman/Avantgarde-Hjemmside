@@ -7,13 +7,14 @@ body {
   padding: 0;
   font-family: arial;
   background-color:  #fffffd;
-
+  height: 100%;
 }
 
 /* Katalog.html starts */
 #katalogPic {
   height: 50vw;
   width: 100%;
+
 }
 
 #row1_2 {
@@ -453,8 +454,7 @@ footer{
     .aabningstider , .kontakt, .sitemap, .socialLinks, .seoFooter{
       float:none;
       width: 100%;
-      padding: 10px;
-      background-color: red;
+      height: 10%;
     }
 
     .socialLinks h2{
@@ -467,10 +467,10 @@ footer{
 
 /* Katalog.html starts */
 #katalogPic {
-  height: 100%;
-  padding-bottom: 30vh;
+
   margin: 0 auto;
   width: 100%;
+  float: none;
 }
 
 /* Picture 1 Responsive */
@@ -534,65 +534,8 @@ footer{
   border-bottom: none;
 }
 
-/* Katalog.html ends
+footer{
+  height: 130%;
+  float: none;
 }
-
-@media screen and (min-device-width: 1024px) and (orientation: portrait),
-       screen and (min-device-height: 1366px) and (orientation: landscape),
-       screen and (max-width:1024px)
-{
-  #row1_2 {
-    float: left;
-    width: 33.3%;
-    padding-bottom: 2%;
-    border-bottom: solid 4px #D77321;
-    padding-top: 1%;
-  }
-
-  #row3_4 {
-    float: left;
-    width: 33.3%;
-    padding-bottom: 2%;
-    border-bottom: solid 4px #D77321;
-    padding-top: 1%;
-  }
-
-  #row5_6 {
-    float: left;
-    width: 33.3%;
-    padding-bottom: 2%;
-    border-bottom: solid 4px #D77321;
-    padding-top: 1%;
-  }
-
-  .pic_1_holder, .pic_2_holder, .pic_3_holder, .pic_4_holder, .pic_5_holder, .pic_6_holder {
-    float: left;
-    padding-top: 23%;
-    padding-left: 5%;
-  }
-
-  #pic_1_h3, #pic_2_h3, #pic_3_h3 , #pic_4_h3 , #pic_5_h3 , #pic_6_h3 {
-    width: 20%;
-    float: left;
-    padding-right: 17%;
-    padding-left: 22%;
-    padding-top: 2%;
-  }
-
-  .pic_1_holder img, .pic_2_holder img, .pic_3_holder img, .pic_4_holder img, .pic_5_holder img, .pic_6_holder img {
-    border: solid 3px #D77321;
-    border-radius: 50%;
-    height: 18vw;
-    width: 58%;
-    float: left;
-  }
-
-  #pic_1_tekst, #pic_2_tekst, #pic_3_tekst, #pic_4_tekst, #pic_5_tekst, #pic_6_tekst {
-    width: 61%;
-    height: 20%;
-    float: right;
-    padding-bottom: 0%;
-    padding-right: 36%;
-  }*/
-
 }
