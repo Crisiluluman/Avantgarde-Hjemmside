@@ -222,11 +222,7 @@ a:hover {
 .kontaktSec{
   width: 100%;
   padding-bottom: 2vh;
-<<<<<<< HEAD
-
-=======
   background-color: #fffffd;
->>>>>>> 3780f2bd14444743441da4c10f11f9f238792af3
 }
 
 .kontaktHolder{
@@ -533,11 +529,10 @@ footer{
   width: 100%;
 }
 
-<<<<<<< HEAD
+/* katalog.html end */
 
   /* OmOs.html starts */
-=======
->>>>>>> 3780f2bd14444743441da4c10f11f9f238792af3
+
 .omOs_section {
   height: 100%;
   width: 100%;
@@ -621,14 +616,8 @@ padding-top: 1%;
 
   /* OmOs.html ends */
 
-<<<<<<< HEAD
-footer{
-  height: 130%;
-  float: none;
-=======
 
 footer{
   height: 130%;
   float: none;
 }
->>>>>>> 3780f2bd14444743441da4c10f11f9f238792af3
