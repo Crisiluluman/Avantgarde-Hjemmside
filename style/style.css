@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto');
+
 html{
   height: 100%;
 }
@@ -5,23 +8,24 @@ html{
 body {
   margin: 0;
   padding: 0;
-  font-family: arial;
-  background-color:  #fffffd;
+  font-family: 'Roboto', sans-serif;
+  background-color:  #4b453d;
   height: 100%;
 }
-
+h1, h2, h3{
+  font-family: 'Josefin Sans', sans-serif;
+}
 /* Katalog.html starts */
 #katalogPic {
   height: 50vw;
   width: 100%;
-
+  background-color: #fffffd;
 }
 
 #row1_2 {
   float: left;
   width: 33.3%;
   padding-bottom: 2%;
-  border-bottom: solid 4px #c2c1c0;
   padding-top: 1%;
 }
 
@@ -29,7 +33,6 @@ body {
   float: left;
   width: 33.3%;
   padding-bottom: 2%;
-  border-bottom: solid 4px #c2c1c0;
   padding-top: 1%;
 }
 
@@ -37,7 +40,6 @@ body {
   float: left;
   width: 33.3%;
   padding-bottom: 2%;
-  border-bottom: solid 4px #c2c1c0;
   padding-top: 1%;
 }
 
@@ -72,11 +74,11 @@ body {
 
 /* Katalog.html ends */
 
-
 /* OmOs.html starts */
 .omOs_section {
   height: 45vw;
   width: 100%;
+  background-color: #fffffd;
 }
 
 #elisabeth_holder, #rikke_holder {
@@ -171,7 +173,7 @@ a.icon{
 .menuList  li{
   display: inline;
   width: 100%;
-
+  font-family: 'Josefin sans';
 }
 
 .menuList li a{
@@ -222,8 +224,7 @@ a:hover {
 .kontaktSec{
   width: 100%;
   padding-bottom: 2vh;
-  border-bottom: solid 4px #c2c1c0;
-
+  background-color: #fffffd;
 }
 
 .kontaktHolder{
@@ -272,11 +273,12 @@ a:hover {
 }
 footer{
   clear: both;
-  height: 21vh;
+  height: 25%;
   z-index: 0;
   position: relative;
   background-color: #4b453d;
   padding-left: 8%;
+  border-top: solid 4px #c2c1c0;
 }
 
 .aabningstider, .kontakt , .sitemap, .socialLinks, .seoFooter{
@@ -284,6 +286,19 @@ footer{
   width: 15%;
   height: 100%;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+
+}
+
+.seoFooter{
+  padding-right: 2%;
+}
+
+#footerH2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .sitemap li a, .sitemap li {
@@ -295,7 +310,7 @@ footer{
 }
 
 .seoFooter ul{
- width: 90%;
+ width: 100%;
 }
 
 
@@ -392,7 +407,7 @@ footer{
     ul.menuList{
       background-color: #fff;
       right: 0;
-      top: 30px;
+      top: 40px;
       width: 100%;
       max-width: 100%;
       position: fixed;
@@ -415,7 +430,6 @@ footer{
       width: auto;
       max-height: 100%;
       min-height: 100%;
-      border-bottom: solid 4px #c2c1c0;
     }
 
     .w3-container{
@@ -515,11 +529,8 @@ footer{
 #row1_2, #row3_4, #row5_6 {
   float: none;
   width: 100%;
-  border-bottom: none;
 }
 
-<<<<<<< HEAD
-  /* OmOs.html starts */
 .omOs_section {
   height: 50vh;
   width: 100%;
@@ -598,10 +609,8 @@ padding-top: 1%;
 
   /* OmOs.html ends */
 
-=======
+
 footer{
   height: 130%;
   float: none;
-}
->>>>>>> cf83deada63a89b31718c8d31b9f97a5f7d9e950
 }
