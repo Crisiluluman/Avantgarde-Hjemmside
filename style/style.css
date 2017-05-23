@@ -465,7 +465,7 @@ footer{
 
 /* Katalog.html starts */
 #katalogPic {
-
+  height: auto;
   margin: 0 auto;
   width: 100%;
   float: none;
@@ -484,7 +484,7 @@ footer{
   padding-left: 4%;
 }
 
-.pic_2_holder, .pic_3_holder, .pic_4_holder, .pic_5_holder, .pic_6_holder {
+.pic_2_holder, .pic_3_holder, .pic_4_holder, .pic_5_holder {
   float: none;
   height: 50vh;
   width: 90%;
@@ -495,6 +495,20 @@ footer{
   padding-top: 70%;
   right: 0;
   padding-left: 4%;
+}
+
+.pic_6_holder {
+  float: none;
+  height: 50vh;
+  width: 90%;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  margin-right: 0%;
+  padding-top: 55%;
+  right: 0;
+  padding-left: 4%;
+  padding-bottom: 50%;
 }
 
 #pic_1_h3, #pic_2_h3, #pic_3_h3, #pic_4_h3, #pic_5_h3, #pic_6_h3 {
@@ -534,7 +548,7 @@ footer{
   /* OmOs.html starts */
 
 .omOs_section {
-  height: 100%;
+  height: auto;
   width: 100%;
   }
 
