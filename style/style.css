@@ -7,13 +7,14 @@ body {
   padding: 0;
   font-family: arial;
   background-color:  #fffffd;
-
+  height: 100%;
 }
 
 /* Katalog.html starts */
 #katalogPic {
   height: 50vw;
   width: 100%;
+
 }
 
 #row1_2 {
@@ -439,8 +440,7 @@ footer{
     .aabningstider , .kontakt, .sitemap, .socialLinks, .seoFooter{
       float:none;
       width: 100%;
-      padding: 10px;
-      background-color: red;
+      height: 10%;
     }
 
     .socialLinks h2{
@@ -453,10 +453,10 @@ footer{
 
 /* Katalog.html starts */
 #katalogPic {
-  height: 100%;
-  padding-bottom: 30vh;
+
   margin: 0 auto;
   width: 100%;
+  float: none;
 }
 
 /* Picture 1 Responsive */
@@ -518,6 +518,7 @@ footer{
   border-bottom: none;
 }
 
+<<<<<<< HEAD
   /* OmOs.html starts */
 .omOs_section {
   height: 50vh;
@@ -597,4 +598,10 @@ padding-top: 1%;
 
   /* OmOs.html ends */
 
+=======
+footer{
+  height: 130%;
+  float: none;
+}
+>>>>>>> cf83deada63a89b31718c8d31b9f97a5f7d9e950
 }
