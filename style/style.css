@@ -67,33 +67,9 @@ h1, h2, h3{
 /* OmOs.html starts */
 .omOs_section {
   height: 130%;
-  min-height: 1000px;
+  min-height: 1150px;
   width: 100%;
   background-color: #fffffd;
-}
-
-.rikke_pic, .elisabeth_pic {
-
-}
-
-
-
-.elisabeth_pic img, .rikke_pic img {
-  border: solid 3px #5e5e5b;
-  border-radius: 50%;
-  width: 300px;
-  height: auto;
-  min-height: 350px;
-  float: left;
-}
-
-#elisabeth_tekst, #rikke_tekst {
-  width: 48%;
-  height: 20%;
-  float: right;
-  padding-left: 2%;
-  color: #4b453d;
-
 }
 
 #seo_omOs {
@@ -103,23 +79,72 @@ h1, h2, h3{
 }
 
 #om_seo_title {
-text-align: center;
-color: #4b453d;
+  text-align: center;
+  color: #4b453d;
 }
 
 #om_seo_p {
-padding-left: 5%;
-padding-right: 5%;
-padding-top: 1%;
-columns: 100px 2;
-line-height: 25px;
-width: 55%;
-text-align: justify;
-margin: 0 auto;
-columns: 2;
-column-gap: 35px;
-color: #4b453d;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  columns: 100px 2;
+  line-height: 25px;
+  width: 55%;
+  text-align: justify;
+  margin: 0 auto;
+  columns: 2;
+  column-gap: 35px;
+  color: #4b453d;
 }
+
+
+#staff_row {
+  width: 60%;
+  height: 50%;
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+.rikke {
+  width: 50%;
+  height: 50%;
+  float: left;
+  margin: 0 auto;
+}
+
+.elisabeth {
+  width: 50%;
+  height: 50%;
+  float: left;
+  margin: 0 auto;
+}
+
+.rikke img, .elisabeth img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: solid 4px #5e5e5b;
+  min-height: 350px;
+  margin: 0 auto;
+	display: block;
+}
+
+.rikke h3, .elisabeth h3 {
+  width: 70%;
+  color: #4b453d;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.rikke p, .elisabeth p {
+  width: 80%;
+  height: 20%;
+  margin: 0 auto;
+  color: #4b453d;
+  padding-top: 5%;
+}
+
 
 /* OmOs.html ends */
 
@@ -508,8 +533,83 @@ footer{
 .omOs_section {
   height: auto;
   width: 100%;
-  }
+  min-height: 2500px;
+}
 
+#seo_omOs {
+  border-bottom: none;
+  float: none;
+  width: 100%;
+  height: 100%;
+  padding-top: 15%;
+  clear: both;
+  border-bottom: solid 4px #c2c1c0;
+}
+
+#om_seo_title {
+  text-align: center;
+}
+
+#om_seo_p {
+  height: 20%;
+  padding-left: 2%;
+  padding-bottom: 5%;
+  color: #4b453d;
+  float: none;
+  width: 80%;
+  padding-left: 7%;
+  columns: 1;
+  column-gap: 5px;
+}
+
+#staff_row {
+  width: 90%;
+  height: 50%;
+  padding-left: 0%;
+  padding-top: 0%;
+  margin: 0 auto;
+}
+
+.rikke {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+.elisabeth {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+.rikke img, .elisabeth img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: solid 4px #5e5e5b;
+  min-height: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+.rikke h3, .elisabeth h3 {
+  width: 100%;
+  color: #4b453d;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.rikke p, .elisabeth p {
+  width: 60%;
+  height: 20%;
+  margin: 0 auto;
+  color: #4b453d;
+  padding-top: 3%;
+  text-align: center;
+}
+
+/*
 
 #rowOm1 , #rowOm2{
   width: 100%;
@@ -564,30 +664,8 @@ footer{
   width: 20%;
   text-align: justify;
   padding-left: 7%;
-}
+}*/
 
-#seo_omOs {
-  border-bottom: none;
-  float: none;
-  width: 100%;
-  height: 100%;
-  padding-top: 15%;
-  clear: both;
-  border-bottom: solid 4px #c2c1c0;
-}
-
-#om_seo_title {
-text-align: center;
-}
-
-#om_seo_p {
-padding-left: 4%;
-padding-right: 4%;
-padding-top: 1%;
-columns: 1;
-width: 90%;
-text-align: justify;
-}
 
   /* OmOs.html ends */
 
