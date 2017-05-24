@@ -237,7 +237,7 @@ a:hover {
   width: 50%;
   height: auto;
   min-height: 100%;
-  padding-left: 25vw;
+  padding-left: 25%;
   display: flex;                  /* establish flex container */
   flex-direction: row;            /* default value; can be omitted */
   flex-wrap: nowrap;              /* default value; can be omitted */
@@ -331,7 +331,7 @@ footer{
 }
 
 #instagram {
-  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+/*  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);*/
   border-radius: 18%;
   float: left;
   width: 26px;
