@@ -305,7 +305,7 @@ footer{
 }
 
 .seoFooter ul{
- width: 80%;
+ width: 90%;
 }
 
 #facebook i {
@@ -630,6 +630,6 @@ text-align: justify;
   /* OmOs.html ends */
 
 footer{
-  height: 130%;
+  height: 100%;
   float: none;
 }
