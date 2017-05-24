@@ -48,23 +48,18 @@ h1, h2, h3{
   border-radius: 50%;
   border: solid 4px #5e5e5b;
   min-height: 250px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  margin-left: auto;
-	margin-right: auto;
+  margin: 0 auto;
 	display: block;
 }
 
 #pic_1_h3, #pic_2_h3, #pic_3_h3, #pic_4_h3, #pic_5_h3, #pic_6_h3 {
   text-align: center;
-=======
->>>>>>> 1681ab26a7e62b280a776c365f90ce9e700dda2d
+
 }
 
 #pic_1_tekst, #pic_2_tekst, #pic_3_tekst, #pic_4_tekst, #pic_5_tekst, #pic_6_tekst {
   text-align: center;
-=======
->>>>>>> 1681ab26a7e62b280a776c365f90ce9e700dda2d
+
 }
 
 /* katalog.html ends */
@@ -92,8 +87,6 @@ h1, h2, h3{
   float: left;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #elisabeth_tekst, #rikke_tekst {
   width: 48%;
   height: 20%;
@@ -102,10 +95,6 @@ h1, h2, h3{
   color: #4b453d;
 
 }
-=======
->>>>>>> 1681ab26a7e62b280a776c365f90ce9e700dda2d
-=======
->>>>>>> 1681ab26a7e62b280a776c365f90ce9e700dda2d
 
 #seo_omOs {
   width: 100%;
@@ -499,16 +488,17 @@ footer{
   text-align: center;
 }
 
-<<<<<<< HEAD
+
 #pic_1_tekst, #pic_2_tekst, #pic_3_tekst, #pic_4_tekst, #pic_5_tekst, #pic_6_tekst {
   width: 80%;
   text-align: center;
   margin: 0 auto;
-=======
+}
+
 #row1_2, #row3_4, #row5_6 {
   float: left;
   width: 100%;
->>>>>>> 1681ab26a7e62b280a776c365f90ce9e700dda2d
+
 }
 
 /* katalog.html end */
@@ -536,10 +526,15 @@ footer{
 .elisabeth_pic {
   padding-bottom: 50%;
 }
+
 #profil_tekst{
-  columns: 2;
+  padding-left: 21%;
+  padding-top: 2%;
+  column-count: 2;
   float: left;
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
+
 }
 
 #elisabeth_h3, #rikke_h3 {
