@@ -28,7 +28,6 @@ h1, h2, h3{
 #row1_3_5, #row_2_4_6 {
   width: 100%;
   float: left;
-
 }
 
 #row_2_4_6 {
@@ -39,7 +38,7 @@ h1, h2, h3{
   width: 20%;
   height: 20%;
   float: left;
-  padding: 0 5% 0 5%;
+  padding: 0 5% 0 7%;
 
 }
 
@@ -49,9 +48,22 @@ h1, h2, h3{
   border-radius: 50%;
   border: solid 3px #5e5e5b;
   min-height: 250px;
-
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
+#pic_1_h3, #pic_2_h3, #pic_3_h3, #pic_4_h3, #pic_5_h3, #pic_6_h3 {
+  text-align: center;
+}
+
+#pic_1_tekst, #pic_2_tekst, #pic_3_tekst, #pic_4_tekst, #pic_5_tekst, #pic_6_tekst {
+  text-align: center;
+}
+
+/* katalog.html ends */
+
+/* OmOs.html starts */
 .omOs_section {
   height: 130%;
   min-height: 890px;
@@ -92,6 +104,7 @@ h1, h2, h3{
   float: right;
   padding-left: 2%;
   color: #4b453d;
+
 }
 
 #seo_omOs {
@@ -337,6 +350,7 @@ footer{
 @media screen and (max-device-width: 480px) and (orientation: portrait),
        screen and (max-device-width: 740px) and (orientation: landscape),
        screen and (max-width:1024px)
+
 {
 
     .logo img{
@@ -458,80 +472,44 @@ footer{
 }
 
 /* Picture 1 Responsive */
-.pic_1_holder {
+
+#row1_3_5, #row_2_4_6 {
+  width: 100%;
   float: none;
-  height: 50vh;
-  width: 90%;
-  max-width: 100%;
-  max-height: 100%;
-  margin: 0;
-  margin-right: 0%;
-  padding-top: 20%;
-  padding-left: 4%;
 }
 
-.pic_2_holder, .pic_3_holder, .pic_4_holder, .pic_5_holder {
-  float: none;
-  height: 50vh;
-  width: 90%;
-  max-width: 100%;
-  max-height: 100%;
-  margin: 0;
-  margin-right: 0%;
-  padding-top: 70%;
-  right: 0;
-  padding-left: 4%;
-}
 
-.pic_6_holder {
-  float: none;
-  height: 50vh;
-  width: 90%;
-  max-width: 100%;
-  max-height: 100%;
-  margin: 0;
-  margin-right: 0%;
-  padding-top: 55%;
-  right: 0;
-  padding-left: 4%;
-  padding-bottom: 50%;
-}
-
-#pic_1_h3, #pic_2_h3, #pic_3_h3, #pic_4_h3, #pic_5_h3, #pic_6_h3 {
-  float: none;
-  padding-top: 1%;
-  padding-left: 45%;
-  right: 0;
-  margin: 0;
-}
-
-#pic_1_tekst, #pic_2_tekst, #pic_3_tekst, #pic_4_tekst, #pic_5_tekst, #pic_6_tekst {
+.pic_1_holder{
   float: none;
   width: 90%;
-  right: 0;
-  margin: 0;
-  padding-left: 8%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  padding: 5% 0% 5% 5%;
+}
 
+.pic_2_holder, .pic_3_holder, .pic_4_holder, .pic_5_holder, .pic_6_holder{
+  float: none;
+  width: 90%;
+  padding: 0% 0% 5% 5%;
 }
 
 .pic_1_holder img, .pic_2_holder img, .pic_3_holder img, .pic_4_holder img, .pic_5_holder img, .pic_6_holder img {
-  height: 100%;
-  width: 100%;
-  max-width: 100%;
-  max-height: 100%;
-  float: none;
-  right: 0;
-  margin: 0;
+
 }
 
-#row1_2, #row3_4, #row5_6 {
-  float: none;
-  width: 100%;
+#pic_1_h3, #pic_2_h3, #pic_3_h3, #pic_4_h3, #pic_5_h3, #pic_6_h3 {
+  text-align: center;
+}
+
+#pic_1_tekst, #pic_2_tekst, #pic_3_tekst, #pic_4_tekst, #pic_5_tekst, #pic_6_tekst {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* katalog.html end */
 
-  /* OmOs.html starts */
+/* OmOs.html starts */
 
 .omOs_section {
   height: auto;
@@ -622,3 +600,57 @@ footer{
   height: 100%;
   float: none;
 }
+
+/*
+@media screen and (max-width: 1023px) and (min-width: 768px)
+{
+  #katalogPic {
+    height: auto;
+    width: 100%;
+    float: none;
+    min-height: 980px;
+
+  }
+
+  #row1_3_5, #row_2_4_6 {
+    width: 100%;
+    float: none;
+  }
+
+
+  .pic_1_holder{
+    float: none;
+    width: 90%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .pic_2_holder, .pic_3_holder, .pic_4_holder, .pic_5_holder, .pic_6_holder{
+    float: none;
+    width: 90%;
+    padding-bottom: 5%;
+  }
+
+  .pic_1_holder img, .pic_2_holder img, .pic_3_holder img, .pic_4_holder img, .pic_5_holder img, .pic_6_holder img {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    border: solid 3px #5e5e5b;
+    min-height: 400px;
+    margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  }
+
+  #pic_1_h3, #pic_2_h3, #pic_3_h3, #pic_4_h3, #pic_5_h3, #pic_6_h3 {
+    text-align: center;
+  }
+
+  #pic_1_tekst, #pic_2_tekst, #pic_3_tekst, #pic_4_tekst, #pic_5_tekst, #pic_6_tekst {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+}*/
