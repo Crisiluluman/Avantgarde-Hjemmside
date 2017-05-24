@@ -45,7 +45,7 @@ h1, h2, h3{
 
 .pic_1_holder, .pic_2_holder, .pic_3_holder, .pic_4_holder, .pic_5_holder, .pic_6_holder {
   float: left;
-  padding-top: 17%;
+  padding-top: 10%;
   padding-left: 5%;
 }
 
