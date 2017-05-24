@@ -133,6 +133,12 @@ text-align: center;
 padding-left: 5%;
 padding-right: 5%;
 padding-top: 1%;
+columns: 100px 2;
+line-height: 25px;
+width: 55%;
+text-align: justify;
+margin: 0 auto;
+columns: 2;
 }
 
 /* OmOs.html ends */
@@ -625,6 +631,9 @@ text-align: center;
 padding-left: 4%;
 padding-right: 4%;
 padding-top: 1%;
+columns: 1;
+width: 90%;
+text-align: justify;
 }
 
   /* OmOs.html ends */
