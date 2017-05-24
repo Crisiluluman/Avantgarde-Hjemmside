@@ -126,6 +126,7 @@ h1, h2, h3{
 
 #om_seo_title {
 text-align: center;
+color: #4b453d;
 }
 
 #om_seo_p {
@@ -138,6 +139,8 @@ width: 55%;
 text-align: justify;
 margin: 0 auto;
 columns: 2;
+column-gap: 35px;
+color: #4b453d;
 }
 
 /* OmOs.html ends */
@@ -285,7 +288,7 @@ footer{
 
 .aabningstider, .kontakt , .sitemap, .socialLinks, .seoFooter{
   float: left;
-  width: 15%;
+  width: 18.5%;
   height: 100%;
   color: #fff;
   font-family: 'Roboto', sans-serif;
