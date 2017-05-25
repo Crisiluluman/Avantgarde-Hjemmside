@@ -534,6 +534,7 @@ footer{
   height: auto;
   width: 100%;
   min-height: 2500px;
+  float: none;
 }
 
 #seo_omOs {
