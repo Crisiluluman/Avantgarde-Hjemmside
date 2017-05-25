@@ -365,13 +365,13 @@ footer{
 /* tablet */
 @media  screen and (min-width:740px) and (max-width: 1279px)
 {
-.w3-container{
-  display: none;
-}
-.omOs_section{
-    padding-top: 2%;
-}
-/* katalog.html starts */
+  .w3-container{
+    display: none;
+  }
+  .omOs_section{
+      padding-top: 2%;
+  }
+
   #katalogPic{
     padding-top: 10%;
     min-height: 1160px;
@@ -384,9 +384,6 @@ footer{
     border: solid 4px #5e5e5b;
     min-height: 170px;
   }
-/* katalog.html ends */
-
-/* OmOs.html starts */
 
   .omOs_section{
     min-height: 1400px;
@@ -395,6 +392,10 @@ footer{
 
   #seo_omOs {
     padding-top: 5%;
+  }
+  .logo img {
+    width: 20%;
+    height: 20%;
   }
 
   .rikke img, .elisabeth img {
@@ -422,18 +423,13 @@ footer{
     padding-top: 5%;
   }
 
-/* OmOs.html ends */
-
   .sliderWrapper{
     height: 50% ;
   }
 
-
-  .logo img {
-    width: 20%;
-    height: 20%;
+  .seoFooter ul{
+    width: 50%;
   }
-
   .kontaktHolder{
     padding-left: 20%;
   }
