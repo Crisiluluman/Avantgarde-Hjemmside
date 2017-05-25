@@ -359,9 +359,26 @@ footer{
   margin-top: 8px;
 }
 
+/* pc */
+@media screen and (min-width: 1280px) {
+  .omOs_section{
+    background-color: blue;
+  }
+
+}
+
+/* tablet */
+@media  screen and (min-width:740px) and (max-width: 1279px)
+{
+  .omOs_section{
+    min-height: 1550px;
+    height: 1000px;
+  }
+}
+/* phone */
 @media screen and (max-device-width: 480px) and (orientation: portrait),
        screen and (max-device-width: 740px) and (orientation: landscape),
-       screen and (max-width:1024px)
+       screen and (max-width:740px)
 
 {
 
@@ -533,7 +550,8 @@ footer{
 .omOs_section {
   height: auto;
   width: 100%;
-  min-height: 2500px;
+  min-height: 2300px;
+  max-height: 1800px;
 }
 
 #seo_omOs {
