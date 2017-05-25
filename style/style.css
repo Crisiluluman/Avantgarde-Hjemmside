@@ -49,12 +49,12 @@ h1, h2, h3{
 }
 
 #pic_1_h3, #pic_2_h3, #pic_3_h3, #pic_4_h3, #pic_5_h3, #pic_6_h3 {
-  text-align: center;
+  text-align: left;
 
 }
 
 #pic_1_tekst, #pic_2_tekst, #pic_3_tekst, #pic_4_tekst, #pic_5_tekst, #pic_6_tekst {
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -63,7 +63,7 @@ h1, h2, h3{
 /* OmOs.html starts */
 .omOs_section {
   height: 130%;
-  min-height: 1200px;
+  min-height: 1230px  ;
   width: 100%;
   background-color: #fffffd;
 }
@@ -86,7 +86,7 @@ h1, h2, h3{
   columns: 100px 2;
   line-height: 25px;
   width: 55%;
-  text-align: justify;
+  text-align: left;
   margin: 0 auto;
   columns: 2;
   column-gap: 35px;
@@ -140,13 +140,11 @@ h1, h2, h3{
   color: #4b453d;
   padding-top: 5%;
   line-height: 23px;
+  text-align: left;
 }
 
 .rikke ul, .elisabeth ul {
-  float: left;
   color: #4b453d;
-  height: 20%;
-  padding: 15% 0 0 14%;
   line-height: 30px;
   list-style-type: circle;
 }
@@ -394,7 +392,7 @@ footer{
   }
 
   .omOs_section{
-    min-height: 1400px;
+    min-height: 1555px;
     height: 1000px;
   }
 
@@ -607,7 +605,7 @@ footer{
 
 #pic_1_tekst, #pic_2_tekst, #pic_3_tekst, #pic_4_tekst, #pic_5_tekst, #pic_6_tekst {
   width: 80%;
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
 }
 
@@ -623,7 +621,7 @@ footer{
 .omOs_section {
   height: auto;
   width: 100%;
-  min-height: 2300px;
+  min-height: 2480px;
   max-height: 1800px;
 }
 
@@ -692,7 +690,7 @@ footer{
 }
 
 .rikke p, .elisabeth p {
-  width: 70%;
+  width: 75%;
   height: 20%;
   margin: 0 auto;
   color: #4b453d;
