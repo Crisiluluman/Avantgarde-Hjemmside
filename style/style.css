@@ -374,6 +374,7 @@ footer{
   }
 
   #katalogPic{
+    padding-top: 10%;
     min-height: 1205px;
   }
 
@@ -406,10 +407,10 @@ footer{
     right: 0;
     top: 0;
     position: fixed;
-    padding: 14px 16px;
+    padding: 18px 16px;
   }
   .navBar{
-    height: 55px;
+    height: 60px;
   }
   .navBar a:not(:first-child) {
     display: none;
@@ -439,7 +440,7 @@ footer{
   ul.menuList{
     background-color: #fff;
     right: 0;
-    top: 40px;
+    top: 45px;
     width: 100%;
     max-width: 100%;
     position: fixed;
@@ -449,6 +450,14 @@ footer{
     color: #5e5e5b;
   }
 
+  .logo img {
+    width: 20%;
+    height: 20%;
+  }
+
+  .kontaktHolder{
+    padding-left: 20%;
+  }
 }
 /* phone */
 @media screen and (max-device-width: 480px) and (orientation: portrait),
