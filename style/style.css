@@ -370,11 +370,29 @@ footer{
 /* tablet */
 @media  screen and (min-width:740px) and (max-width: 1279px)
 {
-  .omOs_section{
-    min-height: 1550px;
-    height: 1000px;
-  }
+
+.omOs_section{
+  min-height: 1300px;
+  height: 1000px;
+  background-color: red;
 }
+
+.rikke img, .elisabeth img {
+  width: 215px;
+  height: 215px;
+  border-radius: 50%;
+  border: solid 4px #5e5e5b;
+  min-height: 215px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+}
+
+
+
+
 /* phone */
 @media screen and (max-device-width: 480px) and (orientation: portrait),
        screen and (max-device-width: 740px) and (orientation: landscape),
@@ -550,13 +568,8 @@ footer{
 .omOs_section {
   height: auto;
   width: 100%;
-<<<<<<< HEAD
-  min-height: 2500px;
   float: none;
-=======
   min-height: 2300px;
-  max-height: 1800px;
->>>>>>> 8e8ff18a2764f2dc50ae937e7d3fbae6fd1b5a43
 }
 
 #seo_omOs {
