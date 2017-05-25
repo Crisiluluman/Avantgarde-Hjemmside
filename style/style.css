@@ -365,7 +365,12 @@ footer{
 /* tablet */
 @media  screen and (min-width:740px) and (max-width: 1279px)
 {
-
+.w3-container{
+  display: none;
+}
+.omOs_section{
+    padding-top: 2%;
+}
 /* katalog.html starts */
   #katalogPic{
     padding-top: 10%;
@@ -423,67 +428,6 @@ footer{
     height: 50% ;
   }
 
-  footer{
-    height: 50%;
-  }
-
-  .aabningstider , .kontakt, .sitemap, .socialLinks, .seoFooter{
-    float:none;
-    width: 50%;
-    height: 10%;
-  }
-
-  .menu a{
-    display: none;
-  }
-
-  a.icon{
-    display: block;
-    right: 0;
-    top: 0;
-    position: fixed;
-    padding: 18px 16px;
-  }
-  .navBar{
-    height: 60px;
-  }
-  .navBar a:not(:first-child) {
-    display: none;
-  }
-    .navBar a.icon {
-    display: block;
-    float: right;
-    text-decoration: none;
-    background-color: #5e5e5b;
-    color: #fff;
-  }
-    .navBar.responsive {
-    position: fixed;
-  }
-    .navBar.responsive a.icon {
-    right: 0;
-    top: 0;
-    position: fixed;
-  }
-
-  .navBar.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-  ul.menuList{
-    background-color: #fff;
-    right: 0;
-    top: 45px;
-    width: 100%;
-    max-width: 100%;
-    position: fixed;
-  }
-
-  .menuList li a {
-    color: #5e5e5b;
-  }
 
   .logo img {
     width: 20%;
@@ -492,6 +436,16 @@ footer{
 
   .kontaktHolder{
     padding-left: 20%;
+  }
+
+  footer{
+    height: 50%;
+  }
+
+  .aabningstider, .kontakt, .sitemap, .socialLinks, .seoFooter{
+    float:none;
+    width: 50%;
+    height: 10%;
   }
 }
 /* phone */
