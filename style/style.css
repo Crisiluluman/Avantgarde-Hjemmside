@@ -361,9 +361,7 @@ footer{
 
 /* pc */
 @media screen and (min-width: 1280px) {
-  .omOs_section{
-    background-color: blue;
-  }
+
 
 }
 
@@ -374,6 +372,83 @@ footer{
     min-height: 1550px;
     height: 1000px;
   }
+
+  #katalogPic{
+    min-height: 1205px;
+  }
+
+  .pic_1_holder img, .pic_2_holder img, .pic_3_holder img, .pic_4_holder img, .pic_5_holder img, .pic_6_holder img {
+    width: auto;
+    height: 50px;
+    max-width: 200px;
+  }
+
+  .sliderWrapper{
+    height: 50% ;
+  }
+
+  footer{
+    height: 50%;
+  }
+
+  .aabningstider , .kontakt, .sitemap, .socialLinks, .seoFooter{
+    float:none;
+    width: 50%;
+    height: 10%;
+  }
+
+  .menu a{
+    display: none;
+  }
+
+  a.icon{
+    display: block;
+    right: 0;
+    top: 0;
+    position: fixed;
+    padding: 14px 16px;
+  }
+  .navBar{
+    height: 55px;
+  }
+  .navBar a:not(:first-child) {
+    display: none;
+  }
+    .navBar a.icon {
+    display: block;
+    float: right;
+    text-decoration: none;
+    background-color: #5e5e5b;
+    color: #fff;
+  }
+    .navBar.responsive {
+    position: fixed;
+  }
+    .navBar.responsive a.icon {
+    right: 0;
+    top: 0;
+    position: fixed;
+  }
+
+  .navBar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  ul.menuList{
+    background-color: #fff;
+    right: 0;
+    top: 40px;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+  }
+
+  .menuList li a {
+    color: #5e5e5b;
+  }
+
 }
 /* phone */
 @media screen and (max-device-width: 480px) and (orientation: portrait),
@@ -522,10 +597,6 @@ footer{
   padding: 0% 0% 5% 5%;
 }
 
-.pic_1_holder img, .pic_2_holder img, .pic_3_holder img, .pic_4_holder img, .pic_5_holder img, .pic_6_holder img {
-
-}
-
 #pic_1_h3, #pic_2_h3, #pic_3_h3, #pic_4_h3, #pic_5_h3, #pic_6_h3 {
   text-align: center;
 }
@@ -540,7 +611,6 @@ footer{
 #row1_2, #row3_4, #row5_6 {
   float: left;
   width: 100%;
-
 }
 
 /* katalog.html ends */
